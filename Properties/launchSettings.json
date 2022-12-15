@@ -1,0 +1,36 @@
+{
+  "profiles": {
+    "OBS Zutrittskontrollen Simulator": {
+      "commandName": "Project"
+    }
+  },
+
+  "Services": {
+    "__ServiceTemplateUrl": "https://{service}.public.demo.obs.gmbh",
+    "StammServiceUrl": "https://obsstamm.public.demo.obs.gmbh",
+    "STSServiceUrl": "https://obsidentity.public.demo.obs.gmbh",
+    "CalendarServiceUrl": "https://obscalendar.public.demo.obs.gmbh",
+    "BookingServiceUrl": "https://obsbooking.public.demo.obs.gmbh"
+  },
+
+  "Authentication": {
+    "ClientId": "OBS.Zutrittskontrollen.Simulator",
+    "ClientSecret": "WPfdOBS.D.Ei2020!",
+    "Scopes": [
+      "OBS.Stamm.AbsenceReasons.List.All",
+      "OBS.Stamm.AbsenceReasons.List.Descriptors",
+      "OBS.Stamm.AbsenceReasons.List.Descriptors.Bookable",
+      "OBS.Stamm.Persons.List.All",
+      "OBS.Stamm.Persons.Detailed",
+      "OBS.Stamm.Persons.List.All",
+      "OBS.Stamm.Persons.List.Descriptors",
+      "OBS.Stamm.Persons.Simple",
+      "OBS.Booking.Bookings.Create",
+      "OBS.Booking.Bookings.Delete",
+      "OBS.Booking.Bookings.Get",
+      "OBS.Calendar.Global.List",
+      "OBS.Calendar.Workplace.List",
+      "OBS.Calendar.Personal.List"
+    ]
+  }
+}
